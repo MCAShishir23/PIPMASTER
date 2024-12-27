@@ -1,0 +1,37 @@
+/* Welcome.css */
+.welcome-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .tab:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
